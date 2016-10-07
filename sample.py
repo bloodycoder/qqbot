@@ -13,5 +13,5 @@ class MyQQBot(QQBot):
     		resent = 'hello,how can I help you?'
     	return resent
 myqqbot = MyQQBot()
-myqqbot.Login()
+myqqbot.Login(2909501073)
 myqqbot.PollForever()
